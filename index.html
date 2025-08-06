@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Moses Lazarus</h1>
+    <p>Passionate Developer & Tech Enthusiast</p>
+    <button id="theme-toggle">Toggle Theme</button>
+  </header>
+
+  <section id="about">
+    <img src="profile.jpg" alt="Profile Picture">
+
+    <div>
+      <h2>About Me</h2>
+      <p>Hello! I'm Moses, a passionate coder who enjoys learning and building meaningful projects. I love diving into tech and exploring creative ideas.</p>
+    </div>
+  </section>
+
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Reading 📚</li>
+      <li>Coding 💻</li>
+      <li>Travelling 🌍</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Contact: moseslazarus960@email.com</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById("theme-toggle");
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark-theme");
+    });
+  </script>
+</body>
+</html>
